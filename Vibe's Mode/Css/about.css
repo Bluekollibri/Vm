@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Oswald&family=Philosopher&family=Sarabun&family=Yanone+Kaffeesatz&display=swap');
+body {
+  min-height: 2000px;
+}
+.header {
+  background: rgba(0, 0, 0, 0.8) url(../Src/Budaya.jpg);
+  background-blend-mode: darken;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav {
+  font-family: 'Oswald', sans-serif;
+}
+.navbar-brand span {
+  color: white;
+}
+.navbar-brand {
+  color: red;
+  font-size: 26px;
+  font-family: 'Philosopher', sans-serif;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.nav-link {
+  color: red;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: white;
+}
+.active {
+  color: white;
+}
+.jumbotron {
+  padding-top: 10rem;
+  color: red;
+  font-size: 20px;
+  background-position-y: -250px;
+  font-family: 'Arimo', sans-serif;
+}
+.jumbotron span {
+  color: white;
+}
+#about {
+  color: white;
+  padding-top: 3rem;
+  min-height: 200vh;
+  background-color: black;
+}
+#budaya h2 {
+  color: red;
+}
+.row {
+  padding-top: 3rem;
+}
+.col-md-7 p {
+  text-align: justify;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+#ab1 {
+  padding-top: 1rem;
+}
+#ab2 {
+  padding-top: 1rem;
+}
+span {
+  color: red;
+}
+.col-md-7 h2 {
+  color: red;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 40px;
+}
+img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+p {
+  text-align: justify;
+}
+h2 span {
+  color: white;
+}
+.reveal {
+  transform: translateY(120px);
+  transition: all 1s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+}
+hr {
+  width: 10rem;
+  color: red;
+}
+.nav-pills .nav-link.active {
+  background-color: red;
+  color: white;
+}
+.nav-pills .nav-link.active:hover {
+  background-color: white;
+  color: red;
+}

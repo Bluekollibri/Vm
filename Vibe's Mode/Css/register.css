@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Oswald&family=Philosopher&family=Roboto+Condensed&family=Sarabun&family=Yanone+Kaffeesatz&display=swap');
+.header {
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.7) url(../Src/7193747.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+span {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+.card {
+  width: 70rem;
+  height: 50rem;
+  margin-top: 4rem;
+  margin-left: 32rem;
+}
+.card img {
+    width: 300px;
+    height: 200px;
+    margin :auto;
+}
+.card-title {
+  padding-top: 2rem;
+  font-family: 'Sarabun', sans-serif;
+}
+.card-text {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+.btn {
+  color: white;
+  background-color: red;
+  border: red;
+  font-family: 'Roboto Condensed', sans-serif;
+  width:28rem;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: red;
+  background-color: white;
+  border: white;
+}
+.reveal {
+  transform: translateY(100px);
+  transition: all 2s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+}
+.nav-pills .nav-link.active:hover {
+  background-color: white;
+  color: red;
+}
+.nav-pills .nav-link.active {
+  background-color: red;
+  color: white;
+}
